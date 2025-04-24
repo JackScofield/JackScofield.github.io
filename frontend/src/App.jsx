@@ -11,18 +11,15 @@ function App() {
   return (
     <Router>
       <Hero />
-      <div className="inner">
+      <div className="container">
         <NaviBar />
-      </div>
-
-      <main id="main">
-        <div className="inner">
+        <main id="main">
           <Routes>
             <Route path="/" element={<BlogList />} />
             <Route path="/post/:slug" element={<BlogPost />} />
           </Routes>
-        </div>
-      </main>
+        </main>
+      </div>
       
       <Footer />
     </Router>
