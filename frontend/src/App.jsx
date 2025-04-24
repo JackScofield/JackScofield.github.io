@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BlogList from "./BlogPost";
-import BlogPost from "./BlogList";
+import BlogList from "./BlogList";
+import BlogPost from "./BlogPost";
 
 function App() {
   return (
