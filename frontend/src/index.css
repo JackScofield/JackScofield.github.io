@@ -41,3 +41,25 @@ body {
     background-color: #4b5ae1;
   }
   
+  .inner {
+    max-width: 1200px; /* You can adjust this width */
+    margin: 0 auto;
+    padding: 0 2rem; /* Optional horizontal padding */
+  }
+  
+  #main {
+    padding: 2rem;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #nav ul {
+    display: flex;
+    gap: 2rem; /* Optional spacing between links */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
